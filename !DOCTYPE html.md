@@ -17,7 +17,7 @@
   
 <script>  
 let pass = prompt("Nhập mật khẩu để mở AgriGenius:");  
-if(pass !== "abcd"){  // Thay "abcd" bằng mật khẩu bạn muốn  
+if(pass !== "abcd"){  
   alert("Sai mật khẩu! Không được mở.");  
   document.body.innerHTML="<h1>Không có quyền truy cập</h1>";  
 }  
